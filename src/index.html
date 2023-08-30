@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aniversário</title>
+  <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.scss">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+      <div class="container"> 
+          <p class="hero__text">
+            Venha para meu aniversário em <span id="contador"></span>
+          </p>
+          <div class="infos-bar">
+            <ul class="infos-bar__infos">
+              <li class="infos-bar__infos__item">
+                <b>Localização</b>
+                Piracicaba - São Paulo
+              </li>
+              <li class="infos-bar__infos__item">
+                <b>Quando</b>
+                28/07/2024 às 19hrs
+              </li>
+              <li class="infos-bar__infos__item">
+                <b>Presente</b>
+                surpresa
+              </li>
+            </ul>
+            <a href="#" class="button button--primary">
+              Garanta sua vaga
+            </a>
+          </div>
+      </div>
+    </header>
+
+    <section class="event event--birthday" >
+      <div class="container"  data-aos-duration="3000" data-aos="flip-right">
+          <div class="event__details">
+            <h2 class="event__details__title">Local</h2>
+            <p class="event__details  __description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloremque deserunt iusto ratione culpa est necessitatibus voluptatum ad similique incidunt architecto aliquam provident adipisci rem, sint, eos, corporis dolorem enim.</p>
+          </div>
+          <img class="event__image" src="./images/local.jpg" alt="Local">
+      </div>
+    </section>
+  
+    <section class="event event--cake event--image-left">
+      <div class="container"  data-aos-duration="3000" data-aos="flip-left">
+        <div class="event__details">
+          <h2 class="event__details__title">Bolo</h2>
+          <p class="event__details  __description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloremque deserunt iusto ratione culpa est necessitatibus voluptatum ad similique incidunt architecto aliquam provident adipisci rem, sint, eos, corporis dolorem enim.</p>
+        </div>
+        <img class="event__image" src="./images/bolo.png" alt="Bolo">
+      </div>
+    </section>
+  
+    <section class="event event--pizza">
+      <div class="container"  data-aos-duration="3000" data-aos="flip-right">
+          <div class="event__details">
+            <h2 class="event__details__title">Pizza</h2>
+            <p class="event__details  __description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloremque deserunt iusto ratione culpa est necessitatibus voluptatum ad similique incidunt architecto aliquam provident adipisci rem, sint, eos, corporis dolorem enim.</p>
+          </div>
+          <img class="event__image" src="./images/pizza.jpg" alt="Pizza">
+      </div>
+    </section>
+  
+    <section class="event event--drinks event--image-left">
+      <div class="container"  data-aos-duration="3000" data-aos="flip-left">
+        <div class="event__details">
+          <h2 class="event__details__title">Drinks</h2>
+          <p class="event__details  __description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloremque deserunt iusto ratione culpa est necessitatibus voluptatum ad similique incidunt architecto aliquam provident adipisci rem, sint, eos, corporis dolorem enim.</p>
+        </div>
+        <img class="event__image" src="./images/drinks.jpg" alt="Drinks">
+      </div>
+    </section>
+  
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
